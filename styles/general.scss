@@ -1,0 +1,70 @@
+// Positions
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.fixed {
+  position: fixed;
+}
+.sticky {
+  position: sticky;
+}
+.top__right {
+  top: 0px;
+  right: 0px;
+}
+.top__left {
+  top: 0px;
+  left: 0px;
+}
+.bottom__left {
+  bottom: 0px;
+  left: 0px;
+}
+.bottom__right {
+  bottom: 0px;
+  left: 0px;
+}
+.margin-auto {
+  margin: auto;
+}
+.pos-float-r {
+  float: right;
+}
+.pos-float-l {
+  float: left;
+}
+// Fonts styles
+.bold {
+  font-weight: 700;
+}
+.underline {
+  text-decoration: underline;
+}
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.italic {
+  font-style: italic;
+}
+.text-align-left {
+  text-align: left;
+}
+.text-align-center {
+  text-align: center;
+}
+.font-quicksand {
+  font-family: $paragraphFont_Q;
+}
+
+// Display
+.invisible {
+  display: none;
+}

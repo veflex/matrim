@@ -1,0 +1,124 @@
+// Colors
+$darkBlack: #010005;
+$kakiGold: #c6ac52;
+$blueGround: #84abb2;
+$sweetPink: #f50078;
+// Secondary Color
+$errorClr: #c42d14;
+$gray: #595959;
+$white_gray: #fafafa;
+$blueGreen: #f8f8f8;
+
+// Gradients
+$black_gold: linear-gradient(to right, $darkBlack, $kakiGold);
+
+// Fonts (Quicksand - Arima Madurai - Georgia)
+// @import url('https://fonts.googleapis.com/css?family=Arima+Madurai:300,500|Quicksand:400,700');
+@font-face {
+  font-family: 'quickSand';
+  src: local('Quicksand'),
+    url('~assets/fonts/Quicksand/Quicksand-Regular.ttf') format('truetype'),
+    url('~assets/fonts/Quicksand/Quicksand_Book.otf') format('opentype'),
+    url('~assets/fonts/Quicksand/quicksand-v9-latin-regular.eot')
+      format('embedded-opentype'),
+    url('~assets/fonts/Quicksand/quicksand-v9-latin-regular.woff')
+      format('woff'),
+    url('~assets/fonts/Quicksand/quicksand-v9-latin-regular.woff2')
+      format('woff2'),
+    url('~assets/fonts/Quicksand/quicksand-v9-latin-regular.svg') format('svg');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'quickSand_Bold';
+  src: local('Quicksand-Bold'),
+    url('~assets/fonts/Quicksand/Quicksand-Bold.ttf') format('truetype'),
+    url('~assets/fonts/Quicksand/Quicksand_Bold.otf') format('opentype'),
+    url('~assets/fonts/Quicksand/quicksand-v9-latin-700.eot')
+      format('embedded-opentype'),
+    url('~assets/fonts/Quicksand/quicksand-v9-latin-700.woff') format('woff'),
+    url('~assets/fonts/Quicksand/quicksand-v9-latin-700.woff2') format('woff2'),
+    url('~assets/fonts/Quicksand/quicksand-v9-latin-700.svg') format('svg');
+  font-display: swap;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'arimaMadurai';
+  src: local('Arima Madurai Light'),
+    url('~assets/fonts/ArimaMadurai/ArimaMadurai-Light.ttf') format('truetype'),
+    url('~assets/fonts/ArimaMadurai/ArimaMadurai-Light.otf') format('opentype'),
+    url('~assets/fonts/ArimaMadurai/arima-madurai-v4-latin-300.eot')
+      format('embedded-opentype'),
+    url('~assets/fonts/ArimaMadurai/arima-madurai-v4-latin-300.woff')
+      format('woff'),
+    url('~assets/fonts/ArimaMadurai/arima-madurai-v4-latin-300.woff2')
+      format('woff2'),
+    url('~assets/fonts/ArimaMadurai/arima-madurai-v4-latin-300.svg')
+      format('svg');
+  font-display: swap;
+  font-weight: 300;
+  font-style: 300;
+}
+@font-face {
+  font-family: 'arimaMadurai';
+  src: local('Arima Madurai Medium'),
+    url('~assets/fonts/ArimaMadurai/ArimaMadurai-Medium.ttf') format('truetype'),
+    url('~assets/fonts/ArimaMadurai/ArimaMadurai-Medium.otf') format('opentype'),
+    url('~assets/fonts/ArimaMadurai/arima-madurai-v4-latin-500.eot')
+      format('embedded-opentype'),
+    url('~assets/fonts/ArimaMadurai/arima-madurai-v4-latin-500.woff')
+      format('woff'),
+    url('~assets/fonts/ArimaMadurai/arima-madurai-v4-latin-500.woff2')
+      format('woff2'),
+    url('~assets/fonts/ArimaMadurai/arima-madurai-v4-latin-500.svg')
+      format('svg');
+  font-display: swap;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'georgia';
+  src: local('georgia'),
+    url('~assets/fonts/Georgia/georgia.ttf') format('truetype');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'georgia';
+  src: local('georgia'),
+    url('~assets/fonts/Georgia/georgiab.ttf') format('truetype');
+  font-display: swap;
+  font-weight: 700;
+}
+
+// Font-familly
+$titleFont: 'Quicksand', 'quickSand', sans-serif;
+$subTitleFont: 'Arima Madurai', 'arimaMadurai', cursive;
+$paragraphFont_A: 'Arima Madurai', 'arimaMadurai', cursive;
+$paragraphFont_G: 'georgia', serif;
+$paragraphFont_Q: 'Quicksand', 'quickSand', sans-serif;
+$paragraphFont_Qbold: 'quickSand_Bold', sans-serif;
+$btnFont: 'Quicksand', 'quickSand', sans-serif;
+
+//Media size
+$phone: 320px;
+$small_tablet: 768px;
+$tablet: 960px;
+
+// Screen
+$screen_max_width: 1280px;
+
+// Picture
+$defaultProfile_PictureF: '~@~assets/Default_IMG/profil_picutre_F.jpg';
+$defaultProfile_PictureM: '~@~assets/Default_IMG/profil_picutre_M.jpg';
+
+// Header
+$navbar_height_desktop: 91px;
+$navbar_height_mobile: 100px;
+$bandeau_pub_height_desktop: 66px;
+$bandeau_pub_height_mobile: 100px;
+$searchWidget_height_desktop: 50px;
+// Footer
+// $footer_height_desktop:143px;
+$footer_height_mobile: 143px;
